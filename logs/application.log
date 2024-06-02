@@ -6,3 +6,40 @@
 2024-06-02 01:41:54 - INFO - Registered router from module: addons.unesco_world_heritage_sites.routing.heritage_sites_service
 2024-06-02 01:42:03 - INFO - Registered router from module: addons.unesco_world_heritage_sites.routing.heritage_sites_service
 2024-06-02 01:42:20 - INFO - Registered router from module: addons.unesco_world_heritage_sites.routing.heritage_sites_service
+2024-06-02 12:54:53 - INFO - Registered router from module: addons.unesco_world_heritage_sites.routing.heritage_sites_service
+2024-06-02 12:58:39 - ERROR - Module 'addons.unesco_world_heritage_sites.routing.heritage_sites_service' failed with the following error: name 'app' is not defined
+2024-06-02 12:58:57 - ERROR - Module 'addons.unesco_world_heritage_sites.routing.heritage_sites_service' failed with the following error: name 'app' is not defined
+2024-06-02 12:59:06 - INFO - Module not found: addons.unesco_world_heritage_sites.routing.heritage_sites_service, error: No module named 'pandas'
+2024-06-02 12:59:27 - ERROR - Module 'addons.unesco_world_heritage_sites.routing.heritage_sites_service' failed with the following error: name 'app' is not defined
+2024-06-02 12:59:41 - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2024-06-02 12:59:41 - ERROR - Module 'addons.unesco_world_heritage_sites.routing.heritage_sites_service' failed with the following error: Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2024-06-02 12:59:51 - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2024-06-02 12:59:51 - ERROR - Module 'addons.unesco_world_heritage_sites.routing.heritage_sites_service' failed with the following error: Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2024-06-02 13:00:14 - INFO - Registered router from module: addons.unesco_world_heritage_sites.routing.heritage_sites_service
+2024-06-02 13:03:53 - INFO - Registered router from module: addons.unesco_world_heritage_sites.routing.heritage_sites_service
+2024-06-02 13:07:17 - INFO - Registered router from module: addons.unesco_world_heritage_sites.routing.heritage_sites_service
+2024-06-02 13:11:11 - INFO - Registered router from module: addons.unesco_world_heritage_sites.routing.heritage_sites_service
+2024-06-02 13:12:16 - INFO - Registered router from module: addons.unesco_world_heritage_sites.routing.heritage_sites_service
+2024-06-02 13:12:25 - INFO - Registered router from module: addons.unesco_world_heritage_sites.routing.heritage_sites_service
+2024-06-02 13:14:00 - INFO - Registered router from module: addons.unesco_world_heritage_sites.routing.heritage_sites_service
+2024-06-02 13:14:34 - INFO - Registered router from module: addons.unesco_world_heritage_sites.routing.heritage_sites_service
+2024-06-02 13:14:42 - ERROR - Module 'addons.unesco_world_heritage_sites.routing.heritage_sites_service' failed with the following error: name 'app' is not defined
+2024-06-02 13:14:46 - INFO - Registered router from module: addons.unesco_world_heritage_sites.routing.heritage_sites_service
+2024-06-02 13:15:28 - INFO - Registered router from module: addons.unesco_world_heritage_sites.routing.heritage_sites_service
+2024-06-02 13:16:32 - INFO - Registered router from module: addons.unesco_world_heritage_sites.routing.heritage_sites_service

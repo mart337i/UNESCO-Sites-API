@@ -5,6 +5,7 @@ import sys
 import os
 
 from .logger import logger as _logger
+from base.database.database import get_session
 
 
 def include_router_from_module(app : FastAPI, module_name: str):
