@@ -1,12 +1,7 @@
 from fastapi import FastAPI, HTTPException, Depends
-
 import importlib
 import sys
 import os
-
-from .logger import logger as _logger
-from base.database.database import get_session
-
 
 def include_router_from_module(app : FastAPI, module_name: str):
     """
@@ -19,13 +14,13 @@ def include_router_from_module(app : FastAPI, module_name: str):
             app.include_router(
                 router=module.router,
             )
-            _logger.info(f"Registered router from module: {module_name}")
+            print(f"Registered router from module: {module_name}")
     except ModuleNotFoundError as e:
-        _logger.info(f"Module not found: {module_name}, error: {e}")
+        print(f"Module not found: {module_name}, error: {e}")
     except AttributeError as e:
-        _logger.info(f"Module '{module_name}' does not have 'router' attribute, error: {e}")
+        print(f"Module '{module_name}' does not have 'router' attribute, error: {e}")
     except Exception as e:
-        _logger.error(f"Module '{module_name}' failed with the following error: {e}")
+        print(f"Module '{module_name}' failed with the following error: {e}")
 
 def register_routes(app : FastAPI):
     """

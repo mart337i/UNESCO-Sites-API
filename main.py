@@ -1,4 +1,3 @@
-from base.logger import logger
 from base.api_init import create_app
 
 from fastapi.responses import HTMLResponse

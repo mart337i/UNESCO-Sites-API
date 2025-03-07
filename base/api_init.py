@@ -9,7 +9,6 @@ from fastapi.routing import APIRoute
 from starlette.middleware.cors import CORSMiddleware
 
 # Local application imports
-from base.logger import logger as _logger
 from .utils import register_routes
 
 # Miscellaneous
@@ -17,19 +16,6 @@ import urllib3
 
 # Disable SSL warnings
 urllib3.disable_warnings()
-
-
-def load_env():
-    """
-    Loads every config file inside config/ in to the environment
-    """
-    dirname = os.path.dirname(__file__)
-    config_dir = os.path.join(dirname, 'config')
-
-    for config_file in os.listdir(path=config_dir):
-        config_path = os.path.join(config_dir, config_file)
-        if os.path.isfile(path=config_path):
-            load_dotenv(dotenv_path=config_path, override=True)
 
 
 def create_app():
@@ -45,7 +31,6 @@ def create_app():
     use_route_names_as_operation_ids(app=app)
 
     setup_middleware(app=app)
-    load_env()
     return app
 
 def setup_base_routes(app: FastAPI) -> None:
